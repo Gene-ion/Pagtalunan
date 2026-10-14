@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up - Hush</title>
+  <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body data-root="../" data-page="signup">
+<nav id="nav"></nav>
+<main>
+  <h1>Sign up</h1>
+  <form id="form" class="box">
+    <label for="username">Username</label><input id="username" autocomplete="username" required>
+    <label for="password">Password</label><input id="password" type="password" autocomplete="new-password" required>
+    <label for="confirm">Confirm password</label><input id="confirm" type="password" autocomplete="new-password" required>
+    <p id="error" class="error"></p>
+    <button>Create account</button>
+  </form>
+  <p>Already have an account? <a href="login.html">Log in</a></p>
+</main>
+<script src="../src/js/main.js"></script>
+</body>
+</html>

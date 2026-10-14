@@ -1,0 +1,18 @@
+/* style.css - styles for every page of Hush */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; background: #f3f5f2; color: #1e2a24; line-height: 1.5; }
+a { color: #2f6b4f; }
+nav { background: #1e2a24; padding: 12px 20px; display: flex; gap: 16px; align-items: center; }
+nav a { color: #fff; text-decoration: none; }
+nav .brand { font-weight: bold; font-size: 1.2em; margin-right: auto; }
+main { max-width: 640px; margin: 24px auto; padding: 0 16px; }
+.box { background: #fff; border: 1px solid #cfd8d2; padding: 16px; margin-bottom: 14px; }
+label { display: block; margin-top: 10px; }
+input, textarea, select { width: 100%; padding: 8px; font: inherit; border: 1px solid #9aa89f; }
+button { margin-top: 12px; padding: 8px 16px; background: #2f6b4f; color: #fff; border: 0; font: inherit; cursor: pointer; }
+button.small { margin: 0 0 0 8px; padding: 2px 8px; background: #888; }
+.error { color: #b00020; min-height: 1.2em; }
+.meta { font-size: 0.85em; color: #5a665f; }
+.hero { text-align: center; padding: 60px 0; }
+.checkbox { display: flex; gap: 8px; align-items: center; }
+.checkbox input { width: auto; }
